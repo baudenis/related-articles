@@ -408,3 +408,15 @@ is responsible for banner insertion between related post blocks. It adds either 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/in-view@0.6.1/dist/in-view.min.js"></script>
 <script>inView.offset(-800);</script>
 ```
+
+### Note:
+
+Keep in mind that this part of banner code here:
+
+![relatedposts example image](./assets/defineSlotPart.png)
+
+```
+googletag.defineSlot('/147246189,22574713645/santarve.lt_700x400_general', [[700, 400], [500, 400], [336, 280], 'fluid'], 'div_gpt_ad_between_content-<?php echo $id; ?>').addService(googletag.pubads());
+```
+
+needs to be changed accordingly to your banners. The defineSlot part is an example and must be changed to your SaaS tag defineSlot ID.
