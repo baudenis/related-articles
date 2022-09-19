@@ -178,8 +178,8 @@ Keep in mind that ***EVERY*** case can be different, so don't blindly place the 
 
 
     <!-- show related posts -->
-
-</div><!-- #content -->
+    
+    
 ```
 
 # Key points of the code
